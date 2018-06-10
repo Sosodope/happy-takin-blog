@@ -10,6 +10,7 @@ node_modules
 *.pyc
 static
 .grunt
+.env.*
 _SpecRunner.html
 __benchmarks__
 build/
