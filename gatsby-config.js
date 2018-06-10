@@ -1,6 +1,10 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   siteMetadata: {
-    title: 'Happy Takin',
+    title: "Happy Takin"
   },
-  plugins: ['gatsby-plugin-react-helmet'],
-}
+  plugins: ["gatsby-plugin-react-helmet"]
+};
